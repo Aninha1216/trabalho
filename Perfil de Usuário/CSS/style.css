@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+        135deg,
+        #817878,
+        hsl(0, 0%, 0%)
+    );
+    font-family: Arial;
+}
+.Perfil{
+    width: 400px;
+    background-color: rgb(184, 182, 178);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gray;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+    box-shadow:0 0 15px gray;
+
+}
+h1{
+    color: #333;
+    
+}
+h3{
+    color:#56606b;
+
+}
+p{
+    color:#666;
+}
+a{
+    color:#56606b
+}
+button{
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #676e75 ;
+    color: white;
+    font-size: 15px;
+}
