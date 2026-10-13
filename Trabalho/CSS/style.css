@@ -31,3 +31,12 @@ p{
 input::placeholder{
     color:#d40000;
 }
+
+button{
+    width: 50%;
+    height: 40px;
+    background-color: #d40000;
+    color: black;
+    border: none;
+    border-radius: 8px;
+}
